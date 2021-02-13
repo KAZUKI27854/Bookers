@@ -13,9 +13,8 @@
  *= require_tree .
  *= require_self
  */
-
+ 
 body {
-  background-color: #fff;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
@@ -24,3 +23,16 @@ body {
   display: block;
 }
 
+.introduction {
+    margin: 33px;
+}
+
+td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Title, .Body{
+    margin-bottom: 0;
+}
